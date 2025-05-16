@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Участники</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="participants-body">
+    <header class="participants-header">
+        <div class="participants-header-container">
+            <a href="participants.html"><img class='participants-header-img' src="pictures/Home-page-logo.svg" alt="Иконка 'Поддержка Рядом'."></a>
+            <ul class="main-page-header-ul">
+                <li class="participants-header-li"><a href="home-page.html" class="participants-header-li-a">Домашняя страница</a></li>
+                <li class="participants-header-li"><a href="about-project.html" class="participants-header-li-a">О проекте</a></li>
+                <li class="participants-header-li"><a href="participants.html" class="participants-header-li-a">Участники</a></li>
+                <li class="participants-header-li"><a href="journal.html" class="participants-header-li-a">Журнал</a></li>
+                <li class="participants-header-li"><a href="resources.html" class="participants-header-li-a">Ресурсы</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="participants-main">
+        <section class="participants-section">
+            <div class="participants-section-container">
+                <h1 class="participants-h1">Участники</h1>
+                <div class="participants-cards-container">
+                    <div class="participants-card" onclick="toggleCard(this)">
+                        <img src="pictures/sergey.jpg" alt="Фото" class="participants-photo">
+                        <div class="participants-info">
+                            <div class="participants-name">Красноперов Сергей Александрович</div>
+                            <div class="participants-group">Группа 241-320, Направление "Веб-технологии"</div>
+                            <span class="participants-role-short">Вёрстка стилизация и разработка интерактивных частей главной страницы.</span>
+                            <div class="participants-role-full">
+                                <p>Участие в проекте Краснопёрова Сергея стало ключевым для создания современной и удобной главной страницы сайта. Он не только сверстал макет, но и тщательно стилизовал все элементы, включая слайдер, блок с появляющимся текстом в секции "Волонтёрам" и динамически меняющиеся текст и изображения в секции "О нас", обеспечив визуальную согласованность с дизайном. Благодаря его работе страница приобрела профессиональный вид, а интерфейс стал интуитивно понятным для пользователей. <br><br>Особое внимание Сергей уделил адаптивности, чтобы сайт корректно отображался на любых устройствах. Он реализовал гибкую вёрстку, медиазапросы и оптимизировал поведение слайдера для мобильных устройств, что значительно улучшило пользовательский опыт. Анимации и интерактивные элементы были протестированы на разных разрешениях, что исключило проблемы с отображением на планшетах и смартфонах.</p><br>
+                                <p>Кроме того, верстальщик оптимизировал производительность страницы, сократив время загрузки. Он минимизировал CSS и JavaScript, использовал современные методы вёрстки и обеспечил кроссбраузерную совместимость. В результате главная страница сайта не только выглядит привлекательно, но и работает быстро и стабильно, что положительно сказывается на вовлечённости аудитории и конверсии.</p>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="participants-card particiants-middle-card" onclick="toggleCard(this)">
+                        <img src="pictures/frolova-photo.jpg" alt="Фото" class="participants-photo">
+                        <div class="participants-info particiants-middle-card-info">
+                            <div class="participants-name">Фролова Ксения Михайловна</div>
+                            <div class="participants-group">Группа 241-320, Направление "Веб-технологии"</div>
+                            <span class="participants-role-short">Разработка дизайнов для страниц.</span>
+                            <div class="participants-role-full participants-role-full-middle-card">
+                                <p>Фролова Ксения проделала важную работу, создав интуитивно понятные и эргономичные макеты для главной страницы, а также форм авторизации и регистрации. Особое внимание было уделено удобству использования для людей с ограниченными возможностями здоровья (ОВЗ) — интерфейсы получили контрастные цвета, крупные элементы управления и продуманную навигацию. <br><br>Для волонтёров также были разработаны специализированные разделы личного кабинета, позволяющие эффективно взаимодействовать с системой и пользователями. Отдельным достижением стала адаптация всех макетов под мобильные устройства и планшеты, что обеспечило комфортное использование сервиса на любых экранах. Дизайнер тщательно проработал расположение элементов, размеры шрифтов и интерактивных кнопок, чтобы даже на небольших дисплеях интерфейс оставался удобным и функциональным. Это особенно важно для людей с ОВЗ, которые часто пользуются мобильными устройствами с дополнительными средствами доступности.</p><br>
+                                <p>Благодаря вкладу дизайнера проект приобрёл целостный и профессиональный вид, соответствующий современным стандартам юзабилити и инклюзивности. Макеты не только визуально привлекательны, но и решают практические задачи, упрощая взаимодействие пользователей с разными потребностями.</p>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="participants-card" onclick="toggleCard(this)">
+                        <img src="pictures/kirill.jpg" alt="Фото" class="participants-photo">
+                        <div class="participants-info">
+                            <div class="participants-name">Якунин Кирилл Дмитриевич</div>
+                            <div class="participants-group">Группа 241-320, Направление "Веб-технологии"</div>
+                            <span class="participants-role-short">Макеты для мобильных устройств.</span>
+                            <div class="participants-role-full">
+                                <p>Якунин Кирилл Дмитриевич сыграл ключевую роль в обеспечении удобства пользователей на всех устройствах. Благодаря его работе макеты страниц сайта корректно отображаются на экранах любого размера — от смартфонов до планшетов. Он тщательно прорабатывал адаптацию контента, меняя расположение элементов, размеры шрифтов и интерактивные компоненты так, чтобы навигация оставалась интуитивно понятной, а информация легко воспринималась. Это значительно улучшило пользовательский опыт и увеличило вовлечённость аудитории. <br><br>Его вклад включал не только техническую адаптацию, но и внимательную проработку деталей: отступов, кнопок, меню и других интерактивных элементов. Он учитывал особенности touch-интерфейсов, увеличивая зоны кликабельности и адаптируя анимации под мобильные устройства. Благодаря этому сайт стал не только удобным, но и визуально привлекательным на любом устройстве, что положительно сказалось на конверсии и времени, которое пользователи проводят на страницах.</p><br>
+                                <p>В его макетах были учтены все состояния интерфейса — от обычного отображения до hover- и active-эффектов, что значительно упростило работу разработчиков. Благодаря четким и продуманным шаблонам в Figma, верстка адаптивных страниц стала более структурированной и последовательной, сократив время на доработки и согласования.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script defer src="participants.js"></script>
+</body>
+</html>
